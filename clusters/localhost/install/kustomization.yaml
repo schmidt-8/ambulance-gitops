@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/ssch-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
