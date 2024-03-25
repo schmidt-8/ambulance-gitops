@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/ssch-ambulance-ufe
+- ../../../apps/ssch-ambulance-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- https://github.com/schmidt-8/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
