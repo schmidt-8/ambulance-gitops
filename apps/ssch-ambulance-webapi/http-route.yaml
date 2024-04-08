@@ -41,8 +41,8 @@ spec:
       - type: URLRewrite
         urlRewrite:
             path:
-            type: ReplaceFullPath
-            replaceFullPath: /openapi
+              type: ReplaceFullPath
+              replaceFullPath: /openapi
       backendRefs:
         - group: ""
           kind: Service
