@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/ssch-ambulance-ufe
+ - ../../../apps/ssch-ambulance-webapi
 
 
 components:
