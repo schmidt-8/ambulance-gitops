@@ -12,6 +12,7 @@ resources:
 - ../../../apps/ssch-ambulance-ufe
 - ../../../apps/ssch-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
 - ../../../components/version-developers
